@@ -50,7 +50,9 @@ You may adjust batch_size based on your # of GPUs. Usually bigger batch size can
 
 ## Acknowledgments
 
-Our implementation and experiments based on the official of ADA [AdaFace: Quality Adaptive Margin for Face Recognition] code and POSTER [ POSTER: A Pyramid Cross-Fusion Transformer Network for Facial Expression Recognition.] code. 
+Our implementation and experiments based on the official of ADA [AdaFace: Quality Adaptive Margin for Face Recognition] code and POSTER [ POSTER: A Pyramid Cross-Fusion Transformer Network for Facial Expression Recognition.] code.  
+
+
 @misc{kim2023adaface,
       title={AdaFace: Quality Adaptive Margin for Face Recognition}, 
       author={Minchul Kim and Anil K. Jain and Xiaoming Liu},
@@ -59,13 +61,18 @@ Our implementation and experiments based on the official of ADA [AdaFace: Qualit
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+
+
 code: https://github.com/zczcwh/POSTER
+
+
 @article{zheng2022poster,
   title={Poster: A pyramid cross-fusion transformer network for facial expression recognition},
   author={Zheng, Ce and Mendieta, Matias and Chen, Chen},
   journal={arXiv preprint arXiv:2204.04083},
   year={2022}
 }
+
 code: 
 
 
