@@ -1,12 +1,12 @@
 # FER_POSTER_ADA (add alignment function to FER with backbone POSTER)
-This project for the Advanced Machine Learning class at SeoulTech [1st semester - 2023]
+This project is for the Advanced Machine Learning class at SeoulTech [1st semester - 2023] Instead of using an MLP head for the classifier, I added the "AdaFace: Quality Adaptive Margin" classifier head on top of the POSTER backbone. My detailed modification is in the "models" folder. 
 
 ### Preparation
 - create conda environment (we provide requirements.txt)
 
 - Data Preparation
 
-  Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset) dataset, and make sure it have a structure like following:
+  Download [RAF-DB] dataset, and make sure it have a structure like following:
  
 	```
 	- data/raf-basic/
